@@ -39,8 +39,7 @@ const Contact = props => {
                     <label htmlFor="nama">Full Name</label>
                     <TextInput name="nama" id="nama" required
                         successMessage="Mantap!"
-                        validator={validator.isAlpha} 
-                        errorMessage="Masukkan huruf"
+                        
 
                         onChange={handleInputChange}
                     />
