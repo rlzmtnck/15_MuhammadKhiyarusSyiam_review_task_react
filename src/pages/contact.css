@@ -23,7 +23,7 @@
 
 width: 96px;
 height: 40px;
-left: 586px;
+right: 900px;
 top: 578px;
 
 background: #F47522;
@@ -79,7 +79,7 @@ top: 279px;
     .peding-30
     {   
         top: 40px;
-        left: 700px;
+        left: 650px;
         margin-right: 1px;
     }
     .peding20
@@ -87,6 +87,5 @@ top: 279px;
         padding: 15px;
     }
     .posisibut{
-        top:auto;
-        left: auto;
+        bottom: 1000000000000000cm;
     }

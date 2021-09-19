@@ -19,7 +19,7 @@ const Header = () => {
     <Nav className="ml-auto">
       <Nav.Link className="" href="/">Home</Nav.Link>
       <Nav.Link href="/about">About</Nav.Link>
-      <Nav.Link href="#experience">Experience</Nav.Link>
+      <Nav.Link href="/news">News</Nav.Link>
       <Nav.Link href="/contact">Contact</Nav.Link>
     </Nav>
   </Navbar>

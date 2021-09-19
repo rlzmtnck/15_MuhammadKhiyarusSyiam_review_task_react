@@ -1,9 +1,14 @@
 import React from "react";
+import { useState } from 'react'
 import { NavLink } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-const Success = props => {
-  const { nama, phone, negara, email, description } =
-    (props.location && props.location.state) || {};
+const Success = () => {
+  
+  var retrievedObject = localStorage.getItem('document');
+  console.log('retrievedObject: ', JSON.parse(retrievedObject));
+  const { nama, email, phone, negara, description } =
+  localStorage.getItem('document');
+
   return (
     <div>
       

@@ -20,6 +20,23 @@ border-radius: 30px;
 font-family: 'Roboto', sans-serif;
 color: white;
 }
+.satu{
+    position: absolute;
+width: 521px;
+height: 100px;
+left: 488px;
+top: 180px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+
+font-size: 40px;
+line-height: 100px;
+
+
+
+color: #19345E;
+}
 .dua{
     position: absolute;
 width: 521px;
@@ -57,7 +74,7 @@ color: #19345E;
 
 
 }
-h1 {
+/* h1 {
     position: absolute;
 
 left: 488px;
@@ -69,7 +86,7 @@ font-size: 25px;
 line-height: 29px;
 
 color: #19345E;
-}
+} */
 .imgrounded{
     
 position: absolute;
