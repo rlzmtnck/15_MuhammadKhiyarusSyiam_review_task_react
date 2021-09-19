@@ -37,6 +37,20 @@ line-height: 100px;
 
 color: #19345E;
 }
+.date{
+    position: absolute;
+width: 521px;
+height: 100px;
+left: 550px;
+top: 100px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 100px;
+
+}
 .dua{
     position: absolute;
 width: 521px;

@@ -22,6 +22,7 @@ const handleInput = (e) => {
   const name = e.target.name;
   const value = e.target.value;
   const re = /^[A-Za-z ]+$/;
+  const num = /^[0-9]*[1-9][0-9]*$/;
   if (name === "nama")
     re.test(value) && value !== ""
       ? setErrName("")
