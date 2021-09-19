@@ -89,7 +89,7 @@ const handleSubmit = (event) => {
                 />
                 {errName !== "" ? (
                 <>
-                  <span>{errName}</span>
+                  <span style={{color: "red"}}>{errName}</span>
                   <br />
                 </>
               ) : null}
@@ -108,7 +108,7 @@ const handleSubmit = (event) => {
               />
               {errEmail !== "" ? (
                 <>
-                  <span>{errEmail}</span>
+                  <span style={{color: "red"}}>{errEmail}</span>
                   <br />
                 </>
               ) : null}
@@ -129,7 +129,7 @@ const handleSubmit = (event) => {
               />
               {errPhone !== "" ? (
                 <>
-                  <span>{errPhone}</span>
+                  <span style={{color: "red"}}>{errPhone}</span>
                   <br />
                 </>
               ) : null}
@@ -152,7 +152,7 @@ const handleSubmit = (event) => {
                     </select>
               {errNat !== "" ? (
                 <>
-                  <span>{errNat}</span>
+                  <span style={{color: "red"}}>{errNat}</span>
                   <br />
                 </>
               ) : null}

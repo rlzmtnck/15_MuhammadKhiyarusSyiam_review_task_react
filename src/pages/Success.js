@@ -5,7 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Success = () => {
     const [data, set_data] = useState ("");
   useEffect(() => {
-    let retrievedObject = localStorage.getItem('document');
+    let retrievedObject = JSON.parse(localStorage.getItem('document'));
+    console.log(retrievedObject)
     set_data(retrievedObject);
   }, []);
 
@@ -19,6 +20,7 @@ const Success = () => {
     <div>
 
       <div className="card border-primary" style={{ width: "50rem", left: "350px", top: "100px" }}>
+
           {
               (data !== undefined) && (
                   <>
