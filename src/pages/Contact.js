@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import validator from "validator";
 
 const Contact = () => {
-  let history = useHistory()
+let history = useHistory()
 const initialData = {
       nama: "",
       phone: "",
@@ -40,7 +40,7 @@ const handleInput = (e) => {
 
   if (name === "negara")
     validator.isEmpty(value)
-      ? setErrnat("Nationality harus diisi")
+      ? setErrnat("Negara harus diisi")
       : setErrnat("");
 
   setData({
