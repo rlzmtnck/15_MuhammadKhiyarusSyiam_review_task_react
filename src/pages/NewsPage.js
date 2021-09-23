@@ -54,7 +54,7 @@ class NewsPage extends React.Component {
         <div>
           {!isLoading ? (
             articles.map(article => {
-              const { date, title, url, image, name, description } = article;
+              const { date, title,  image,  description } = article;
               return (
                 <div key={title} className='container'>
                     <div className="col-md-4">
